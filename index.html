@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    <title>Seminar Hall Booking </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom-styles.css" rel="stylesheet">
+    <link href="css/image-effects.css" rel="stylesheet">
+	  <link href="css/style1.css" rel="stylesheet">
+	
+	   <link href="css/normalize.css" rel="stylesheet">
+		 <link href="css/component.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font-awesome-ie7.css">
+	  
+    <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+	  <script src="js/modernizr.custom.js"></script>
+ 
+  </head>
+  <!--
+  <a href="login/index1.html">
+<button class="button button2">User Login</button></a>
+<a href="loginadmin/index2.html">
+<button class="button button2">Admin Login</button></a>
+ -->
+  <body>
+     <div class="container page-styling">
+    <div class="header-wrapper">
+      <div class="site-name">
+        <h1>SEMINAR HALL BOOKING SYSTEM</h1>
+      </div>
+      <div class="menu">
+        <div class="navbar">
+         
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ">
+                <li><a href="index.html">Home</a></li>
+               
+                <li><a class="last" href="#openmodal">Instructions</a></li>
+                <li><a class="last" href="#openModal">Contact Us</a></li>
+				<li><a class="last" href="#man">Hall Details</a></li>
+				<li><a class="last" href="#openModa"><b>Login</a></li>
+              </ul>
+
+            </div><!--/.navbar-collapse -->
+
+          </div>
+		  <div id="openmodal" class="modalbg">
+									<div class="dialog">
+											<a href="index.html" title="Close" class="close">X</a>
+											<h2><center>Instructions</center></h2>
+											<h4>Points to follow </h4>
+											<p><ol><li>Authorised users who can make reservations: All faculty, office. Users need to login to make room reservations.</li>
+<li>Users are requested to book the smallest size room only that is required for the activity, for just the sufficient time.</li>
+<li>In the booking interface, provide details such as the Activity Type, Activity Description.</li> <li>Expected room occupancy, Contact details of the user, etc</li>
+<li>Rooms can be booked only for the following activities:</ol>
+<li>Extra lectures/ tutorials/ lab</li>
+<li>Tests & Exams</li>
+<li>Presentations</li>
+</p>
+											
+									</div>
+								</div>
+		  <!--contact-->
+<div id="openModal" class="modalbg">
+									<div class="dialog">
+											<a href="index.html" title="Close" class="close">X</a>
+											<h2><center>Contact Us</center></h2>
+											<h4>Visit Us</h4>
+											<p><a href="www.google.com"><font color="red">www.nitclhs.com</font></a></p>
+											<h4>Mail Us</h4>
+											<p><a href="mailto:info@example.com"><font color="red">lectureseminarhall.com</font></a></p>
+											<h4>Call Us</h4>
+											<p>+91-8804523092</p>
+									</div>
+								</div>
+								
+			<!--login page -->					
+	     <div id="openModa" class="modalbg">
+									<div class="dialog">
+											<a href="index.html" title="Close" class="close ">X</a>
+											<div class="page-header">
+				                              <h4>Login page</h4>
+			                                  </div>
+											<div class="bs-example animated wow fadeInRight" data-wow-duration="1000ms" data-example-id="simple-horizontal-form">
+											<form class="form-horizontal" action = "configadmin.php" method = "POST">
+											  <div class="form-group">
+												<label for="inputEmail3" class="col-sm-2 control-label">Email </label>
+												<div class="col-sm-10">
+												  <input type="email" class="form-control" id="inputEmail3" placeholder="gmail" name="gmail" required ">
+												</div>
+											  </div>
+											  <div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Password </label> 
+												<div class="col-sm-10">
+												  <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" required ">
+												</div>
+											  </div>
+											    <div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Who </label>
+												<div class="col-sm-10">
+												  <select class="form-control" id="inputEmail3" placeholder="Password" name="ask">
+												   <option value="user">user</option>
+												   <option value="admin">admin</option>
+												   </select>
+												</div>
+											  </div>
+											 <!-- <div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+												  <div class="checkbox">
+													<label>
+													  <input type="checkbox"> Remember me
+													</label>
+												  </div>
+												</div>
+											  </div>-->
+											  <div class="form-group">
+												<div class="col-sm-offset-2 col-sm-10">
+												  <button type="submit" class="btn btn-default" name="login">Sign in</button>
+												</div>
+											  </div>
+											</form>
+										</div>
+										
+									</div>
+								</div>							
+       
+    </div>
+      </div>
+
+      <div class="banner">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/banner-img.jpg" alt="" class="">
+
+    </div>
+    <div class="item">
+      <img src="img/img2.jpg" alt="">
+     
+    </div>
+    <div class="item">
+      <img src="img/img5.jpg" alt="">
+     
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+</div>
+      <div class="content-wrap">
+        <div class="main-title">
+          <ul class="grid effect-8" id="grid">
+            <li ><h1>Seminar Hall Booking System</h1>
+          <h4>A Seminar hall is a large room used for instruction, typically at a college or university. Unlike a traditional classroom with a capacity normally between one and fifty, the capacity of seminar halls is typically measured in the hundreds. Lecture theatres almost always have a pitched floor, so that those in the rear are seated higher than those at the front (i.e., tiered seating), allowing them to see the lecturer.<br></h4></li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="lines">
+        <div class="more-btn">
+          <a href="#openmodal"" class="btn">Read More</a>
+        </div>
+      </div>
+      
+      <div class="ruler"></div>
+      <div class="content-wrap centering">
+        <div class="main-title spacing-bt" id="man">
+          <ul class="grid effect-8" id="grid">
+              <li><h1 >Seminar Hall Available For Booking</h1>
+                  <!-- <h4>Fusce lobortis lorem at ipsum semper sagittis</h4> -->
+            </li>
+          </ul>  
+        </div>
+        <div class="featured-items">
+          <ul class="grid effect-2" id="grid">
+            <li>
+              <div class="item">
+            <h5>ARYABHATTA</h5>
+          <div class="grow">
+            <img src="img/img1.jpg" alt="">
+           </div>
+            <p><strong>Location : </strong>Lecture Hall Complex<br><strong>Capacity : </strong>320 Benches</p>
+           <!-- <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div>
+            </li>
+            <li>
+              <div class="item">
+            <h5>BHASKARA</h5>
+            <div class="grow">
+            <img src="img/img2.jpg" alt="">
+            </div>
+            <p><strong>Location : </strong>Lecture Hall Complex<br><strong>Capacity : </strong>100 Benches</p>
+            <!-- <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div>
+            </li>
+            <li>
+              <div class="item">
+            <h5>CHANAKYA</h5>
+            <div class="grow">
+            <img src="img/img3.jpg" alt="">
+            </div>
+            <p><strong>Location : </strong>Lecture Hall Complex<br><strong>Capacity : </strong>340 Benches</p>
+            <!-- <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div>
+            </li><li>
+<div class="item">
+            <h5>CSED Seminar Hall</h5>
+          <div class="grow">
+            <img src="img/bhaskara.jpg" alt="">
+           </div>
+            <p><strong>Location : </strong>1st floor,Main Building<br><strong>Capacity : </strong>40 Benches</p>
+            <!-- <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div></li>
+<li><div class="item">
+            <h5>MBA Seminar Hall</h5>
+          <div class="grow">
+            <img src="img/mba.jpg" alt="">
+           </div>
+            <p><strong>Location : </strong>MBA Section<br><strong>Capacity : </strong>240 Benches</p>
+           <!--  <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div>
+</li><li><div class="item">
+            <h5>Raman Lecture Hall</h5>
+          <div class="grow">
+            <img src="img/csed.gif" alt="">
+           </div>
+            <p><strong>Location : </strong>2nd floor,Main Building<br><strong>Capacity : </strong>200 Benches</p>
+           <!--  <p><a href="#" class="more">more info <i class="fw-icon-chevron-right"></i></a></p>-->
+          </div>
+         </li> </ul>
+          
+          
+          
+        </div>
+        </div>
+		<div class="ruler"></div>
+		<div class="content-wrap centering">
+        
+		<div class="tags">
+		<!--<h5 class="spacing-bt">lorem ipsum dolor</h5>
+		<ul class="grid effect-7" id="grid" >
+      <li><a href="#" class="btn">Integer vit ametuno</a></li>
+      <li><a href="#" class="btn">donce ametuno </a></li>
+      <li><a href="#" class="btn">voluptanin </a></li>
+      <li><a href="#" class="btn">tincidun </a></li>
+      <li><a href="#" class="btn">porttion souti </a></li>
+      <li><a href="#" class="btn">namdui sinosi</a></li>
+      <li><a href="#" class="btn">fermnutin </a></li>
+    </ul>
+			-->
+			
+		</div>
+      </div>
+	   <div class="lines">
+        <div class="more-btn">
+          <a href="#" class="btn">View Top</a>
+        </div>
+      </div>
+	 
+    </div><!-- /container -->
+	
+    <div class="container">
+	<div class="copy-rights">
+		
+	</div>
+	</div>
+
+    
+    
+
+     
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+     <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/AnimOnScroll.js"></script>
+    
+    <script>
+      new AnimOnScroll( document.getElementById( 'grid' ), {
+        minDuration : 0.4,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+      } );
+    </script>
+
+    
+  </body>
+</html>
